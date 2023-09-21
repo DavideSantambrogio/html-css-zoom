@@ -23,28 +23,17 @@ img {
     gap: 1rem; 
     justify-content: end;
     padding-top: .2rem;
-    padding-right: 1rem;
-}
-
-
-.view {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 0.4rem;
-    border-radius: 0.5rem;
+    padding-right: 1rem; 
+    
 }
 
 .view {
     background-color: gray;
     padding: 0.4rem;
     border-radius: 0.5rem;
+    cursor: pointer;
 }
-
-.full-screen {
-    background-color: gray;
-    padding: 0.4rem;
-    border-radius: 0.5rem;
-}
-   
+  
 
 /* wrap content */
 .container {
@@ -123,5 +112,11 @@ img {
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 2rem; 
-    padding-bottom: 2rem;          
+    padding-bottom: 2rem;
+    cursor: pointer;          
+}
+
+
+i{
+    cursor: pointer;
 }
