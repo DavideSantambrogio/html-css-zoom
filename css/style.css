@@ -96,11 +96,6 @@ img {
     text-align: center;
 }
 
-.video {
-    display: flex;
-    text-align: center;
-}
-
 .txt-menu {    
     font-size: 0.8rem;
 }
@@ -112,7 +107,11 @@ img {
 .action {
     display: flex;
     gap: 1rem;
-    align-items: center;
+    align-items: center;    
+}
+
+.center {
+    text-align: center;
 }
 
 .esc {
