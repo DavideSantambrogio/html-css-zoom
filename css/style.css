@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* General */
 img {
     max-width: 100%;
 }
@@ -14,11 +15,42 @@ img {
     overflow-y: scroll;
     font-family: Arial, Helvetica, sans-serif;
 }
- 
+
+/* option */
+.option{
+    display: flex;
+    color: white;    
+    gap: 1rem; 
+    justify-content: end;
+    padding-top: .2rem;
+    padding-right: 1rem;
+}
+
+
+.view {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+}
+
+.view {
+    background-color: gray;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+}
+
+.full-screen {
+    background-color: gray;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+}
+   
+
+/* wrap content */
 .container {
     width: 90%;
     margin: 0 auto;
-    padding-top: 4rem;
+    padding-top: 3rem;
     display: flex;
     flex-wrap: wrap;
     
