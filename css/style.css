@@ -40,4 +40,30 @@ img {
     font-size: 0.6;
 }
 
+/* menu */
+.menu {
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.peripheral {
+    display: flex;
+    gap: 1rem;
+}
+
+.audio {
+    display: flex;
+    text-align: center;
+}
+
+.video {
+    display: flex;
+    text-align: center;
+}
+
+.txt-menu {    
+    font-size: 0.8rem;
+}
 
