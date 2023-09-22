@@ -14,6 +14,7 @@ img {
     background-color: black;
     overflow-y: scroll;
     font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 100px;
 }
 
 /* option */
@@ -71,6 +72,9 @@ img {
     background-color: #222222 ;  
     font-family: Arial, Helvetica, sans-serif;  
     padding-left: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     
 }
 
@@ -120,3 +124,4 @@ img {
 i{
     cursor: pointer;
 }
+
